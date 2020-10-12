@@ -1,0 +1,8 @@
+# App
+#
+lib
+josedache-react-portal-*.tgz
+
+node_modules/
+npm-debug.log
+yarn-error.log

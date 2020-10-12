@@ -1,0 +1,35 @@
+{
+  "name": "@josedache/react-portal",
+  "version": "0.0.1",
+  "description": "",
+  "types": "lib/typings/index.d.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "private": "false",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "yarn tsc && webpack",
+    "rollup": "yarn tsc && rollup --config -w",
+    "tsc": "yarn clean && tsc",
+    "build": "yarn rollup",
+    "clean": "rm -rf lib dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.63.3"
+  },
+  "devDependencies": {
+    "rollup": "^2.29.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
